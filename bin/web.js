@@ -21,7 +21,7 @@ var config = loadConfig(argv.config);
 
 function loadConfig(configPath) {
 	var config = {
-		port: 80,
+		port: process.env.PORT || 3000,
 		content: 'localhost:9000'
 	};
 
