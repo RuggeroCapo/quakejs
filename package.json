@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git://github.com/inolen/quakejs.git"
   },
+  "scripts": {
+    "start": "node bin/web.js --config ./web.json"
+},
   "author": "Anthony Pesch",
   "license": "MIT",
   "readmeFilename": "README.md",
